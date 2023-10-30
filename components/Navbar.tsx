@@ -58,7 +58,7 @@ const Navbar = () => {
               setNavMenu(!navMenu);
             }}
           />
-          <ul className="flex flex-col items-end gap-2 absolute top-14 right-0 px-4 py-3 regular-16 text-gray-50 transition-all ">
+          <ul className="flex flex-col items-end gap-2 absolute top-14 right-0 px-4 py-3 regular-16 text-gray-50 transition-all bg-white shadow-xl">
             {NAV_LINKS.map((link) => (
               <Link
                 href={link.href}
