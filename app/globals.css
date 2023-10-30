@@ -16,19 +16,22 @@ body {
 
 @layer utilities {
   .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50;
+    @apply border-white bg-white px-8 py-3 text-green-50 hover:bg-green-90
+    transition delay-100;
   }
   .btn_white_text {
-    @apply border-white bg-white px-8 py-3 text-gray-90;
+    @apply border-white bg-white px-8 py-3 text-gray-90 transition delay-100;
   }
   .btn_green {
-    @apply border-green-50 bg-green-50 px-8 py-5 text-white;
+    @apply border-green-50 bg-green-50 px-8 py-5 text-white hover:bg-green-90
+    transition delay-100;
   }
   .btn_dark_green {
     @apply bg-green-90 px-6 py-3 text-white transition-all hover:bg-black;
   }
   .btn_dark_green_outline {
-    @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
+    @apply border-gray-20 bg-green-90 px-8 py-5 text-white hover:bg-green-50
+    transition delay-100;
   }
 
   .max-container {
@@ -126,7 +129,8 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center
+    md:-right-28 xl:-top-60;
   }
 
   /* Camp */
@@ -136,12 +140,16 @@ body {
 
   /* Feature */
   .feature-phone {
-    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex  3xl:left-20;
+    @apply sm:absolute relative top-[13%] z-10 flex max-w-[1500px]
+    sm:rotate-[15deg] rotate-[-5deg] md:-left-16 lg:flex 3xl:left-20
+    sm:hidden;
   }
 
   /* Get App */
   .get-app {
-    @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden
+     bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row 
+     sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }
 

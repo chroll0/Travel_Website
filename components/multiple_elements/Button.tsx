@@ -11,7 +11,7 @@ type ButtonProps = {
 const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
   return (
     <button
-      className={`flexCenter gap-3 rounded-full border ${variant} ${
+      className={`flexCenter gap-3 rounded-[13px] border ${variant} ${
         full && "w-full"
       }`}
       type={type}
