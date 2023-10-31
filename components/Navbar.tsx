@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5 gap-4">
       <Link href="/">
-        <p>
-          Camp<span>f</span>ire
+        <p className="bold-20 uppercase tracking-[-1.2px]">
+          Camp<span className="text-orange-50">fire.</span>
         </p>
       </Link>
 
