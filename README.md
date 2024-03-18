@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Screenshot 2024-03-18 152806](https://github.com/chroll0/Travel-Website/assets/89222386/9f89e57b-dd3a-4ce8-bb0c-c427731543dc)
 
-## Getting Started
+# Travel Website 🌍
 
-First, run the development server:
+Live Link: https://travel-website-rho-navy.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to the Travel Website repository, your portal to the world of travel and exploration. This repository hosts the source code for our travel website, where we combine technology with a love for travel. Explore destinations, share experiences, and connect with fellow travelers. Join us in building the future of travel websites.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Travel Website project aims to provide users with a comprehensive platform for planning, sharing, and experiencing travel adventures. Here's what you can expect from our website:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Explore diverse destinations around the globe.
+- Share your travel experiences through blogs, photos, and videos.
+- Connect with fellow travelers and exchange tips and recommendations.
+- Access resources and tools to plan your next adventure seamlessly.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+The Travel Website utilizes the following technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- TypeScript
+- Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## How to Run
 
-## Deploy on Vercel
+1. Clone or download the repository to your local machine.
+2. Install dependencies by running `npm install`.
+3. Start the development server with `npm run dev`.
+4. Access the website in your browser to start exploring the world of travel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for choosing the Travel Website project. Let's embark on exciting journeys together! 
+
+If you like this project, please give it a star ⭐.
